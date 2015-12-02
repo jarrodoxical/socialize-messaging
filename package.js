@@ -1,8 +1,8 @@
 Package.describe({
-    name: "socialize:messaging",
+    name: "socialize:messagingj",
     summary: "A social messaging package",
     version: "0.4.4",
-    git:"https://github.com/copleykj/socialize-messaging.git"
+    git:"https://github.com/jarrodoxical/socialize-messaging.git"
 });
 
 Package.onUse(function(api) {
