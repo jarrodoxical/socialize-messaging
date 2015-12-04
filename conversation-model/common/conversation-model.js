@@ -200,6 +200,13 @@ Conversation.appendSchema({
     "_participants.$":{
         type:String,
         regEx:SimpleSchema.RegEx.Id
+    },
+    "ownedBy":{                                                                                                           // 162
+        type:String,                                                                                                     // 163
+        autoValue: function() {                                                                                        // 164
+            return Meteor.userId();                                                                                         // 165
+        },                                                                                                             // 166
+        optional:true                                                                                                  // 167
     }
 });
 
